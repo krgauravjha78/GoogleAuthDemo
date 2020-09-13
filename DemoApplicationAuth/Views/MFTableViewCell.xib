@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mfTableViewCell" rowHeight="107" id="KGk-i7-Jjw" customClass="MFTableViewCell" customModule="DemoApplicationAuth" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2H-mt-wnT">
+                        <rect key="frame" x="10" y="5" width="300" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Cd1-MN-zVa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="0.00012152502119999999" green="0.31061818149999998" blue="0.45985067229999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invested Val" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LX-JQ-nen">
+                        <rect key="frame" x="10" y="40" width="102.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="N6L-r6-lRc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Market CAP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSD-98-afF">
+                        <rect key="frame" x="10" y="70" width="97.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="pqZ-TI-yt1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ROI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGK-eC-1ml">
+                        <rect key="frame" x="279" y="40" width="31" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="kPD-IO-Opa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIP Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wnl-gW-gb1">
+                        <rect key="frame" x="213.5" y="70" width="96.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="NR9-8e-8CN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sN0-wQ-XVe">
+                        <rect key="frame" x="5" y="99" width="310" height="3"/>
+                        <color key="backgroundColor" red="0.00012152502119999999" green="0.31061818149999998" blue="0.45985067229999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="3" id="XJC-ZF-ul1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="F2H-mt-wnT" secondAttribute="trailing" constant="10" id="3t7-Ca-vmg"/>
+                    <constraint firstAttribute="bottom" secondItem="sN0-wQ-XVe" secondAttribute="bottom" constant="3" id="5UX-NI-guP"/>
+                    <constraint firstItem="CSD-98-afF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6sx-M1-525"/>
+                    <constraint firstItem="F2H-mt-wnT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="6yc-Un-xyK"/>
+                    <constraint firstAttribute="trailing" secondItem="sN0-wQ-XVe" secondAttribute="trailing" constant="5" id="CSD-0h-qxq"/>
+                    <constraint firstItem="Wnl-gW-gb1" firstAttribute="top" secondItem="iGK-eC-1ml" secondAttribute="bottom" constant="10" id="PH1-pA-Dyi"/>
+                    <constraint firstAttribute="trailing" secondItem="Wnl-gW-gb1" secondAttribute="trailing" constant="10" id="YJC-ru-OzR"/>
+                    <constraint firstItem="sN0-wQ-XVe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="aD8-pX-6Xn"/>
+                    <constraint firstItem="6LX-JQ-nen" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="hwp-3O-6Gb"/>
+                    <constraint firstItem="iGK-eC-1ml" firstAttribute="top" secondItem="F2H-mt-wnT" secondAttribute="bottom" constant="10" id="jza-Ff-D7l"/>
+                    <constraint firstItem="6LX-JQ-nen" firstAttribute="top" secondItem="F2H-mt-wnT" secondAttribute="bottom" constant="10" id="oTP-dS-BvI"/>
+                    <constraint firstItem="F2H-mt-wnT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="pi0-jE-tqQ"/>
+                    <constraint firstAttribute="trailing" secondItem="iGK-eC-1ml" secondAttribute="trailing" constant="10" id="qY0-L2-FKr"/>
+                    <constraint firstItem="CSD-98-afF" firstAttribute="top" secondItem="6LX-JQ-nen" secondAttribute="bottom" constant="10" id="xnv-Bg-Ls3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblCompanyName" destination="F2H-mt-wnT" id="KJm-mM-j1a"/>
+                <outlet property="lblInvestedVal" destination="6LX-JQ-nen" id="i4o-OP-7gh"/>
+                <outlet property="lblMarketCap" destination="CSD-98-afF" id="AAh-Xa-LZL"/>
+                <outlet property="lblROI" destination="iGK-eC-1ml" id="0qT-pW-0qD"/>
+                <outlet property="lblSIPAmount" destination="Wnl-gW-gb1" id="H4R-yB-vcG"/>
+            </connections>
+            <point key="canvasLocation" x="-1.4492753623188408" y="169.75446428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
